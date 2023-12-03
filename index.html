@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="/assets/img/arcavigi_interactive_logo_no_shadow.svg" type="svg">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/lib/prism.css">
+    <script src="/assets/lib/prism.js"></script>
     <script defer src="/script/script.js"></script>
 </head>
 
@@ -48,109 +50,97 @@
                     <span class="brand-light">Interactive</span>
                 </div>
             </div>
-            <div class="interact-container">
-                <div class="interact-item">
-                    <button class="interact-btn prim-btn exp-now" id="discover-offers">
-                        Discover Offers
-                    </button>
-                </div>
-                <div class="interact-item">
-                    <button class="interact-btn second-btn disc-serv">
-                        Explore
-                    </button>
+            <div class="landing-txt">
+                <div class="catcher">
+                    <h2>
+                        <span>a</span>
+                        <span class="catcher-highlighted">
+                            <span>creative</span>
+                            <span>cutting-edge</span>
+                            <span>contemporary</span>
+                        </span>
+                        <span>web project</span>
+                    </h2>
+                    <sub>by Warrior Deere</sub>
                 </div>
             </div>
-        </section>
-
-        <section class="services" id="service-section">
-            <span class="square-container"></span>
-            <div class="offers">
-                <div class="offer-card">
-                    <span class="bg-blob"></span>
-                    <div class="offer-head">
-                        <h2>Essential</h2>
-                    </div>
-                    <div class="offer-body">
-                        <ul>
-                            <li>Essential Web Presence Boost</li>
-                            <li>HTML, JavaScript, CSS</li>
-                            <li>Optional Setup Help</li>
-                        </ul>
-                    </div>
-                    <div class="offer-footer">
-                        <div class="offer-price">
-                            <span class="material-symbols-outlined">savings</span>
-                            250€ - 500€
-                        </div>
-                        <div class="offer-ui">
-                            <button class="offer-btn">
-                                go
-                                Essential
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <span class="best-offer-tag">
-                    <span class="material-symbols-outlined">
-                        campaign
-                    </span>
-                    most popular
+            <div class="interact-item">
+                <span class="material-symbols-outlined">
+                    expand_more
                 </span>
+            </div>
+        </section>
 
-                <div class="offer-card best-offer">
-                    <span class="bg-blob"></span>
-                    <div class="offer-head">
-                        <h2>Premium</h2>
+        <section class="about" id="about">
+            <div class="content">
+                <div class="desc">
+                    <div class="desc-card">
+                        <img class="desc-avatar" src="/assets//img/avatar_dc.svg" alt="Warrior Deere's Avatar">
+                        <h2>Warrior Deere</h2>
+                        <p>Developer</p>
+                        <p>Farmer</p>
                     </div>
-                    <div class="offer-body">
-                        <ul>
-                            <li>Advanced High-End Web Solutions</li>
-                            <li>Next.js + React</li>
-                            <li>Setup your Server</li>
-                        </ul>
-                    </div>
-                    <div class="offer-footer">
-                        <div class="offer-price">
-                            <span class="material-symbols-outlined">savings</span>
-                            500€+
+                    <div class="desc-dsg-elem">
+                        <div class="bar">
+                            <span>Bughunting</span>
                         </div>
-                        <div class="offer-ui">
-                            <button class="offer-btn">
-                                go
-                                Premium
-                            </button>
+                        <div class="dsg-content">
+                            <pre>
+                                <code class="language-js">
+    const plowThroughBugs = () => {
+        let fieldOfBugs = ["🐞", "🐜", "🕷️"];
+        let bug-freeField = fieldOfBugs.filter(bug => bug !== "🐞");
+    
+        console.log("Just plowed through the bugs, now we've got a bug-free field! 🚜🌾");
+        return bug-freeField;
+      };
+                                </code>
+                            </pre>
                         </div>
                     </div>
                 </div>
 
-                <div class="offer-card">
-                    <span class="bg-blob"></span>
-                    <div class="offer-head">
-                        <h2>Unique</h2>
-                    </div>
-                    <div class="offer-body">
-                        <ul>
-                            <li>Unique Projects</li>
-                            <li>On Your Demand</li>
-                            <li>and more</li>
-                        </ul>
-                    </div>
-                    <div class="offer-footer">
-                        <div class="offer-price">
-                            <span class="material-symbols-outlined">savings</span>
-                            Individual
-                        </div>
-                        <div class="offer-ui">
-                            <button class="offer-btn">
-                                go
-                                Unique
-                            </button>
+                <div class="dev-depens">
+                    <h2 class="heading-depens">we use top-notch tools</h2>
+                    <div class="depens-slider">
+                        <a href="https://code.visualstudio.com/" target="_blank" class="depens"
+                            title="Visual Studio Code">
+                            <img src="https://asset.brandfetch.io/idUz6LJMxo/idNTHTS6o3.svg"
+                                alt="Visual Studio Code Icon" title="Visual Studio Code">
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="depens" title="GitHub">
+                            <img src="https://asset.brandfetch.io/idZAyF9rlg/idyBTsqLzR.svg" alt="GitHub Icon"
+                                title="GitHub">
+                        </a>
+                        <a href="https://www.npmjs.com/" target="_blank" class="depens" title="npm">
+                            <img src="https://asset.brandfetch.io/idVqW4ZoYq/idSrAe562I.svg" alt="npm Icon" title="npm">
+                        </a>
+                        <a href="https://www.typescriptlang.org/" target="_blank" class="depens" title="Typescript">
+                            <img src="https://asset.brandfetch.io/idKX_Hb7va/id1t_VNpUn.svg" alt="Typescript Icon"
+                                title="Typescript">
+                        </a>
+                        <a href="https://nextjs.org/" target="_blank" class="depens" title="Next.js">
+                            <img src="https://asset.brandfetch.io/id2alue-rx/idAZSWYBPz.svg" alt="Next.js Icon"
+                                title="Next.js">
+                        </a>
+                        <a href="https://tauri.app/" target="_blank" class="depens" title="Tauri">
+                            <img src="https://asset.brandfetch.io/idzqTrpsk6/id5R8NL-rS.svg" alt="Tauri Icon"
+                                title="Tauri">
+                        </a>
+                        <a href="https://developer.tomtom.com/" target="_blank" class="depens" title="TomTom">
+                            <img src="https://asset.brandfetch.io/idSc-elqPq/idvXD9W4Bj.svg" alt="TomTom Icon"
+                                title="TomTom">
+                        </a>
+                        <div class="depens">
+                            <p>and more to come...</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="project-section"></section>
+
     </main>
 
 
@@ -189,19 +179,6 @@
             </p>
         </section>
         <section class="socials"></section>
-        <section class="slogan-container">
-            <div class="slogan">
-                <span class="slogan-normal">
-                    Shaping
-                </span>
-                <span class="slogan-special">
-                    Interactive
-                </span>
-                <span class="slogan-normal">
-                    Futures
-                </span>
-            </div>
-        </section>
     </footer>
 </body>
 
